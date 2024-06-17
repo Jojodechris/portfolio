@@ -1693,6 +1693,7 @@ body.loaded {
 .portfolio_gallery .gallery_item {
 	max-width: 930px;
 	width: 100%;
+	
 }
 .portfolio_gallery .owl-dots {
 	display: -webkit-box;
@@ -2944,6 +2945,11 @@ blockquote cite::before {
 .contact-info-list li:last-child {
 	margin-bottom: 0;
 }
+
+.gallery_item img{
+	height: 410px;
+	width: 510px;
+}
 .contact-info-list .icon-box {
 	width: 50px;
 	height: 50px;
@@ -3542,5 +3548,6 @@ body.absolute_header .breadcrumb_area {
 	height: 35px;
 	border-radius: 50%;
 }
+
 
 /* END: Modal CSS */
