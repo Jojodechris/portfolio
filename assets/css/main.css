@@ -167,6 +167,10 @@ h2 {
 	font-size: var(--tj-fz-h2);
 }
 
+.text1{
+	color:white;
+}
+
 h3 {
 	font-size: var(--tj-fz-h3);
 }
