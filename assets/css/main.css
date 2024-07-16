@@ -113,6 +113,29 @@ Description: Gerold - Personal Portfolio HTML5 Template
 	scrollbar-color: var(--tj-theme-primary) var(--tj-theme-secondary);
 }
 
+ /* Webkit browsers (Chrome, Safari, Edge) */
+ progress::-webkit-progress-bar {
+    background-color: #f3f3f3;
+  }
+
+  progress::-webkit-progress-value {
+    background-color: rgb(46, 28, 97); /* Green */
+  }
+
+  /* Firefox */
+  progress::-moz-progress-bar {
+    background-color: rgb(46, 28, 97); /* Green */
+  }
+  
+  /* Other styles for the progress bar */
+  progress {
+    width: 50%;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
 ::-webkit-scrollbar {
 	height: 4px;
 	width: 4px;
