@@ -3537,6 +3537,16 @@ body.absolute_header .breadcrumb_area {
 	background-color: var(--tj-white);
 	transition: 0.4s;
 }
+
+.python-logo {
+	width: 100px; /* Adjust the size as needed */
+	transition: fill 0.3s;
+}
+.python-logo:hover {
+	fill: blue;
+}
+
+
 .breadcrumb_navigation span a:hover::after {
 	width: 100%;
 	right: auto;
